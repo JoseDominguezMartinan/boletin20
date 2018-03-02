@@ -34,6 +34,15 @@ public class Boletin_20
                 break;
             case 2:
                obxDatos.visualizar();
+               break;
+            case 3:
+                obxDatos.borrarLibro();
+                break;
+            case 4:
+            obxDatos.modificarLibro();
+            break;
+            default:
+                System.out.println("opción non valida");
         }
     }
     
