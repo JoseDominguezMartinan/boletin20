@@ -20,6 +20,8 @@ public class Boletin_20
     public static void main(String[] args)
     {
         // TODO code application logic here
+        boolean i=true;
+        while(i==true){
         Datos obxDatos=new Datos();
         int op;
         String[]botones={"engadir","consultar","visualizar","borrar","modificar","sair"};
@@ -41,9 +43,12 @@ public class Boletin_20
             case 4:
             obxDatos.modificarLibro();
             break;
+            case 5:
+                i=false;
             default:
                 System.out.println("opción non valida");
         }
+    }
     }
     
 }
